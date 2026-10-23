@@ -1,0 +1,116 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--color-fondo);
+}
+h1 {
+    text-align: left;
+    font-family: var(--fuente-titulos);
+    font-size: 85px;
+    font-weight: thin;
+    color: var(--color-texto);
+}
+h2{
+    text-align: left;
+    font-family: var(--fuente-titulos);
+    font-size: 40px;
+    font-weight: thin;
+    color: var(--color-texto);
+}
+h3{
+    text-align: center;
+    font-family: var(--fuente-subtitulos);
+    font-size: 40px;
+    font-weight: thin;
+    color: var(--color-acento);
+}
+p {
+    text-align: center;
+    font-family: var(--fuente-textos);
+    color: var(--color-texto);
+    font-size: 25px;
+    line-height: 1.8;
+}
+
+#adaptiveContainer {
+    width: 40%;
+    align-self: flex-end;
+    margin-bottom: auto;
+}
+#adaptiveContainer p {
+    text-align: left;
+    font-size: 16px;min-height: 4lh;
+}
+.cover {
+    position: relative;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 5% 10% 15% 10%;
+}
+.arrow {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    fill: var(--color-acento);
+    translate: -50% 0;
+    animation: pulse 1.3s ease infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(12px); }
+}
+
+@media (max-width: 900px) {
+    #adaptiveContainer {
+        width: 60%;
+    }
+    #adaptiveContainer p {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .cover {
+        padding-bottom: 20%;
+    }
+    .arrow {
+        bottom: 65px;
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (max-width: 700px) {
+    #adaptiveContainer {
+        width: 100%;
+    }
+    #adaptiveContainer p {
+        font-size: 11px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .cover {
+        padding-bottom: 40%;
+    }
+}
+@media (max-width: 400px) {
+    .cover {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}

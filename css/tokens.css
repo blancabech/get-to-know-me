@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Noto Serif", serif;
+    src: url("./fonts/Noto_Serif/NotoSerif-VariableFont_wdth\,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+:root {
+    --color-fondo: #DBE2F8;
+    --color-texto: #4d3b28;
+    --color-acento: #fffbab;
+    --color-complementario: #40534C;
+    --fuente-titulos: Impact, sans-serif;
+    --fuente-subtitulos: "Noto Serif", serif;
+    --fuente-textos: Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+    --color-fondo: #504a44;
+    --color-texto: #DBE2F8;
+    --color-acento: #89b4ff;
+    --color-complementario: #40534C;
+    }
+}
