@@ -22,19 +22,19 @@
     --color-fondo2: #c8d2f3;
     --color-texto: #4d3b28;
     --color-acento: #fffbab;
-    --color-complementario: #F6F2ED;
+    --color-correcto: #9fd8a3;
     --fuente-titulos: "Anton", Impact, sans-serif;
     --fuente-subtitulos: "Noto Serif", serif;
     --fuente-textos: Arial, sans-serif;
-    --color-correcto: #9fd8a3;
-    --color-incorrecto: #f2a3a3;
+
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-    --color-fondo: #504a44;
-    --color-texto: #DBE2F8;
-    --color-acento: #89b4ff;
-    --color-complementario: #40534C;
+    --color-fondo: #271e14;
+    --color-fondo2: #253045;
+    --color-texto: #abb7de;
+    --color-acento: #622561;
+    --color-correcto: #6b946e;
     }
 }
