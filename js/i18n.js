@@ -21,5 +21,4 @@ function applyLanguage(language) {
 
 applyLanguage(detectLanguage());
 
-// Update the page if the user changes the browser language while it's open
 window.addEventListener("languagechange", () => applyLanguage(detectLanguage()));

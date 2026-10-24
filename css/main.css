@@ -19,17 +19,26 @@ h2{
     color: var(--color-texto);
 }
 h3{
-    text-align: center;
+    text-align: left;
+    margin-top: 10px;
     font-family: var(--fuente-subtitulos);
     font-size: 40px;
     font-weight: thin;
     color: var(--color-acento);
 }
+h4{
+    text-align: left;
+    font-family: var(--fuente-subtitulos);
+    font-size: 30px;
+    font-weight: thin;
+    color: var(--color-texto);
+    margin-top: 10px;
+}
 p {
-    text-align: center;
+    text-align: left;
     font-family: var(--fuente-textos);
     color: var(--color-texto);
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.8;
 }
 
@@ -43,7 +52,9 @@ p {
     font-size: 16px;min-height: 4lh;
 }
 .cover {
+    background-color: var(--color-fondo2);
     position: relative;
+    z-index: 1;
     min-height: 100vh;
     min-height: 100dvh;
     display: flex;
@@ -51,6 +62,7 @@ p {
     justify-content: flex-end;
     align-items: flex-start;
     padding: 5% 10% 15% 10%;
+    margin: -10px -10px 0px -10px;
 }
 .arrow {
     position: absolute;
@@ -66,6 +78,116 @@ p {
 @keyframes pulse {
     0%, 100% { transform: translateY(0); }
     50%      { transform: translateY(12px); }
+}
+
+.game {
+    position: sticky;
+    bottom: 0;
+    z-index: 0;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    align-items: stretch;
+    gap: 15%;
+    padding: 5% 10%;
+    background-color: var(--color-fondo);
+}
+
+.instructions {
+    background-color: var(--color-texto);
+    padding: 10% 10%;
+    border-radius: 5px;
+}
+
+.instructions p {
+    color: var(--color-acento);
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.option {
+    font-family: var(--fuente-textos);
+    font-size: 18px;
+    text-align: left;
+    color: var(--color-texto);
+    background: var(--color-fondo2);
+    border: none;
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.option:hover:not(:disabled) {
+    background-color: var(--color-acento);
+}
+
+.option:disabled {
+    cursor: default;
+}
+
+.option.correct {
+    background-color: var(--color-correcto);
+    border-color: var(--color-correcto);
+}
+
+.option.wrong {
+    background-color: var(--color-acento);
+}
+
+.solution {
+    display: grid;
+}
+
+.solution > p {
+    grid-area: 1 / 1;
+    visibility: hidden;
+    font-size: 19px;
+}
+
+.solution > p.visible {
+    visibility: visible;
+}
+.correctSolution, .incorrectSolution {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.next {
+    position: absolute;
+    right: 10%;
+    bottom: 60px;
+    font-family: var(--fuente-textos);
+    color: var(--color-texto);
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    background-color: var(--color-acento);
+}
+.next:hover {
+    background-color: var(--color-texto);
+    color: var(--color-acento);
+}
+
+[data-i18n] {
+    white-space: pre-line;
+}
+
+@media (max-width: 1100px) {
+    .game {
+        gap:10%;
+    }
 }
 
 @media (max-width: 900px) {
@@ -89,6 +211,19 @@ p {
         width: 75px;
         height: 75px;
     }
+    .game {
+        grid-template-columns: 1fr;
+        top: 0;
+        gap: 5%;
+    }
+    .instructions {
+        margin-top: 150px;
+    }
+    .next {
+        position: static;
+        justify-self: end;
+        margin-bottom: 65px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -104,13 +239,38 @@ p {
     h2 {
         font-size: 22px;
     }
+    h3 {
+        font-size: 30px;
+    }
+    h4 {
+        font-size: 25px;
+    }
     .cover {
         padding-bottom: 40%;
     }
+    .instructions p {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+    .option {
+        font-size: 16px;
+    }
+    .solution > p {
+        font-size: 17px;
+    }
+
 }
-@media (max-width: 400px) {
+@media (max-width: 425px) {
     .cover {
         padding-right: 5%;
         padding-left: 5%;
+    }
+    .game {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .instructions {
+        margin: 150px -10% 0% -10%;
+        border-radius: 0%;
     }
 }

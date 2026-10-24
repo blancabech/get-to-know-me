@@ -19,13 +19,32 @@
         <path d="M12 16.5 4.5 9l1.4-1.4L12 13.7l6.1-6.1L19.5 9z"/>
     </svg>
 </header>
-<main>
+<main class="game">
+    <div class="instructions">
+        <h3 data-i18n="gameTitle">Truth or lie</h3>
+        <p data-i18n="gameExplanation">Each of the following 5 questions has two truths and one lie. Spot the odd one out.</p>
+        <br><br>
+        <p data-i18n="gameExclamation">Don't miss the final bonus!</p>
+    </div>   
+    
+    <div class="question">
+        <h4 data-i18n="q1">Question 1</h4>
+        <button class="option" data-i18n="q1a">a. I believe that if you try hard enough you can achieve anything, except landing a plane in an emergency.</button>
+        <button class="option" data-i18n="q1b">b. One of my hobbies is collecting qualifications. I have certificates in surf coaching, adapted sports, preventing sexual violence in sport, A2 Indonesian…</button>
+        <button class="option"data-lie data-i18n="q1c">c. I finish everything I start, even bad books.</button>
+        <div class="solution">
+            <p class="correctSolution" data-i18n="q1CorrectSol">Correct! If it's not an obligation, knowing when to quit is a victory.</p>
+            <p class="incorrectSolution" data-i18n="q1IncorrectSol">Wrong. Correct answer: c\nIf it's not an obligation, knowing when to quit is a victory.</p>
+        </div>
+    </div>
 
+    <a class="next" href="question2and3.html">Siguiente</a>
 </main>
     <script>const TRANSLATIONS = {};</script>
     <script src="lang/en.js"></script>
     <script src="lang/es.js"></script>
     <script src="js/i18n.js"></script>
+    <script src="js/game.js"></script>
     <script src="js/textEffects.js"></script>
 
 </body>

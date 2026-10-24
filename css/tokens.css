@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Noto Serif", serif;
+    font-family: "Noto Serif";
     src: url("./fonts/Noto_Serif/NotoSerif-VariableFont_wdth\,wght.ttf") format("truetype");
     font-weight: 100 900;
     font-optical-sizing: auto;
@@ -9,13 +9,18 @@
 }
 
 :root {
-    --color-fondo: #DBE2F8;
+    /*      --color-fondo: #DBE2F8;
+    --color-fondo2: #bac5e9;*/
+    --color-fondo: #e8ecf9;
+    --color-fondo2: #c8d2f3;
     --color-texto: #4d3b28;
     --color-acento: #fffbab;
-    --color-complementario: #40534C;
+    --color-complementario: #F6F2ED;
     --fuente-titulos: Impact, sans-serif;
     --fuente-subtitulos: "Noto Serif", serif;
     --fuente-textos: Arial, sans-serif;
+    --color-correcto: #9fd8a3;
+    --color-incorrecto: #f2a3a3;
 }
 
 @media (prefers-color-scheme: dark) {
