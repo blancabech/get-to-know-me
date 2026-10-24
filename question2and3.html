@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting to know Blanca</title>
+    <link rel="stylesheet" href="./css/tokens.css">
+    <link rel="stylesheet" href="./css/main.css">    
+</head>
+<body>
+<main class="game">
+    <div class="question qleft">
+        <h4 data-i18n="q2">I believe in...</h4>
+        <button class="option" data-i18n="q2a">a. always assuming good intent.</button>
+        <button class="option" data-i18n="q2b">b. specific, timely feedback: “you're doing it wrong” helps no one.</button>
+        <button class="option" data-lie data-i18n="q2c">c. asking for forgiveness rather than permission.</button>
+        <div class="solution">
+            <p class="correctSolution" data-i18n="q2CorrectSol">Correct! I'd rather ask first. It saves headaches, and code that would end up in the bin.</p>
+            <p class="incorrectSolution" data-i18n="q2IncorrectSol">Wrong. The lie was c
+            \nI'd rather ask first. It saves headaches, and code that would end up in the bin.</p>
+        </div>
+    </div>   
+    
+    <div class="question">
+            <h4 data-i18n="q3">I've never...</h4>
+            <button class="option" data-lie data-i18n="q3a">a. used console.log('here') to debug.</button>
+            <button class="option" data-i18n="q3b">b. said “it works on my machine”.</button>
+            <button class="option" data-i18n="q3c">c. copied code from Stack Overflow without understanding what it did.</button>
+            <div class="solution">
+                <p class="correctSolution" data-i18n="q3CorrectSol">Correct! That's a lie, of course.</p>
+                <p class="incorrectSolution" data-i18n="q3IncorrectSol">Wrong. The lie was a
+                \nThat's a lie, of course.</p>
+            </div>
+        </div>
+
+    <a class="next" data-i18n="next" href="./question4and5.html">Next</a>
+</main>
+    <script>const TRANSLATIONS = {};</script>
+    <script src="lang/en.js"></script>
+    <script src="lang/es.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>

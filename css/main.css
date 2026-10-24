@@ -219,6 +219,9 @@ p {
     .instructions {
         margin-top: 150px;
     }
+    .qleft {
+        margin-top: 100px;
+    }
     .next {
         position: static;
         justify-self: end;

@@ -6,10 +6,40 @@ TRANSLATIONS.es = {
     gameTitle:"2 verdades y una mentira",
     gameExplanation:"En cada una de las siguientes 5 preguntas hay dos verdades y una mentira. Selecciona la intrusa.",
     gameExclamation:"¡No te pierdas el bonus final!",
-    q1: "Pregunta 1",
-    q1a: "a. Creo que si insistes lo suficiente puedes conseguir cualquier cosa, menos aterrizar un avión de emergencia.",
-    q1b: "b. Uno de mis hobbies es coleccionar títulos. Tengo diplomas de entrenadora de surf, deporte adaptado, violencia sexual en el deporte, el A2 de indonesio…",
-    q1c: "c. Termino todo lo que empiezo, hasta los libros malos.",
+    next: "Siguiente",
+    
+    q1: "1. Soy de las que...",
+    q1a: "a. creen que si insistes lo suficiente puedes conseguir cualquier cosa, menos aterrizar un avión de emergencia.",
+    q1b: "b. coleccionan títulos: entrenadora de surf, deporte adaptado, A2 de indonesio…",
+    q1c: "c. terminan todo lo que empiezan, hasta los libros malos.",
     q1CorrectSol: "¡Correcto! Si no es un deber, una retirada a tiempo es una victoria.",
-    q1IncorrectSol: "Incorrecto. Respuesta correcta: c \nSi no es un deber, una retirada a tiempo es una victoria."
+    q1IncorrectSol: "Incorrecto. La mentira era la c\nSi no es un deber, una retirada a tiempo es una victoria.",
+    
+    q2: "Creo en...",
+    q2a: "a. presuponer siempre buena intención.",
+    q2b: "b. el feedback concreto y a tiempo: «lo estás haciendo mal» no ayuda a nadie.",
+    q2c: "c. pedir perdón en lugar de pedir permiso.",
+    q2CorrectSol: "¡Correcto! Prefiero preguntar antes. Ahorra disgustos, y también código que habría que tirar.",
+    q2IncorrectSol: "Incorrecto. La mentira era la c\nPrefiero preguntar antes. Ahorra disgustos, y también código que habría que tirar.",
+    
+    q3: "Nunca he...",
+    q3a: "a. usado console.log('aquí') para depurar.",
+    q3b: "b. dicho «en mi ordenador funciona».",
+    q3c: "c. copiado código de Stack Overflow sin entender qué hacía.",
+    q3CorrectSol: "¡Correcto! Es mentira, claro.",
+    q3IncorrectSol: "Incorrecto. La mentira era la a\nEs mentira, claro.",
+
+    q4: "En el futuro quiero...",
+    q4a: "a. profundizar en la tecnología blockchain como hobby.",
+    q4b: "b. trabajar en ventas.",
+    q4c: "c. tener un trabajo estable.",
+    q4CorrectSol: "¡Correcto! Lo mío es construir cosas, no venderlas.",
+    q4IncorrectSol: "Incorrecto. La mentira era la b\nLo mío es construir cosas, no venderlas.",
+
+    q5: "En las entrevistas me gusta que...",
+    q5a: "a. me pidan que enseñe alguno de mis proyectos.",
+    q5b: "b. me pregunten «¿de qué estás más orgullosa que no aparezca en tu CV?».",
+    q5c: "c. me pregunten dónde me veo en cinco años.",
+    q5CorrectSol: "¡Correcto! No tengo una bola de cristal.",
+    q5IncorrectSol: "Incorrecto. La mentira era la c\nNo tengo una bola de cristal."
 };

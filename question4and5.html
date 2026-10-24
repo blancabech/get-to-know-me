@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting to know Blanca</title>
+    <link rel="stylesheet" href="./css/tokens.css">
+    <link rel="stylesheet" href="./css/main.css">    
+</head>
+<body>
+    <main class="game">
+    <div class="question qleft">
+        <h4 data-i18n="q4">In the future I want to...</h4>
+        <button class="option" data-i18n="q4a">a. dig deeper into blockchain technology as a hobby.</button>
+        <button class="option" data-lie data-i18n="q4b">b. work in sales.</button>
+        <button class="option" data-i18n="q4c">c. have a stable job.</button>
+        <div class="solution">
+            <p class="correctSolution" data-i18n="q4CorrectSol">Correct! I'm into building things, not selling them. Although I'm doing a bit of marketing with this game 😉</p>
+            <p class="incorrectSolution" data-i18n="q4IncorrectSol">Wrong. The lie was b
+            \nI'm into building things, not selling them. Although I'm doing a bit of marketing with this game 😉</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <h4 data-i18n="q5">In interviews I like it when...</h4>
+        <button class="option" data-i18n="q5a">a. I'm asked to show one of my projects.</button>
+        <button class="option" data-i18n="q5b">b. I'm asked “what are you most proud of that isn't on your CV?”.</button>
+        <button class="option" data-lie data-i18n="q5c">c. I'm asked where I see myself in five years.</button>
+        <div class="solution">
+            <p class="correctSolution" data-i18n="q5CorrectSol">Correct! I don't have a crystal ball.</p>
+            <p class="incorrectSolution" data-i18n="q5IncorrectSol">Wrong. The lie was c
+            \n I don't have a crystal ball.</p>
+        </div>
+    </div>
+
+    <a class="next" data-i18n="next" href="question4and5.html">Next</a>
+</main>
+    <script>const TRANSLATIONS = {};</script>
+    <script src="lang/en.js"></script>
+    <script src="lang/es.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
