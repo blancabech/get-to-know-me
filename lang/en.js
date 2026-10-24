@@ -4,7 +4,7 @@ TRANSLATIONS.en = {
     greeting: "HI! IT'S ME,",
     intro: "Would you like to know more about me?",
     gameTitle:"Two Truths and a Lie",
-    gameExplanation:"Each of the following 5 questions has two truths and one lie. Spot the odd one out.",
+    gameExplanation:"Each of the following 3 questions has two truths and one lie. Spot the odd one out.",
     gameExclamation:"Don't miss the final bonus!",
     next: "Next",
     
@@ -29,17 +29,9 @@ TRANSLATIONS.en = {
     q3CorrectSol: "Correct! That's a lie, of course.",
     q3IncorrectSol: "Wrong. The lie was a\nThat's a lie, of course.",
 
-    q4: "In the future I want to...",
-    q4a: "a. dig deeper into blockchain technology as a hobby.",
-    q4b: "b. work in sales.",
-    q4c: "c. have a stable job.",
-    q4CorrectSol: "Correct! I'm into building things, not selling them.",
-    q4IncorrectSol: "Wrong. The lie was b\nI'm into building things, not selling them.",
-
-    q5: "In interviews I like it when...",
-    q5a: "a. I'm asked to show one of my projects.",
-    q5b: "b. I'm asked “what are you most proud of that isn't on your CV?”.",
-    q5c: "c. I'm asked where I see myself in five years.",
-    q5CorrectSol: "Correct! I don't have a crystal ball.",
-    q5IncorrectSol: "Wrong. The lie was c\nI don't have a crystal ball.",
+    bonusTitle: "Bonus question",
+    bonusQuestion: "Should you hire me?",
+    bonusYes: "Yes!",
+    bonusMaybe: "Maybe",
+    bonusHired: "Good call! Let's talk:"
 };

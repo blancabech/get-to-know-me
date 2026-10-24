@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/tokens.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<main class="bonus">
+    <h4 data-i18n="bonusTitle">Bonus question</h4>
+    <p data-i18n="bonusQuestion">Should you hire me?</p>
+
+    <div class="answers">
+        <button id="yes" class="answer" data-i18n="bonusYes">Yes!</button>
+        <button id="maybe" class="answer" data-i18n="bonusMaybe">Maybe</button>
+    </div>
+
+    <div class="hired" hidden>
+        <p data-i18n="bonusHired">Good call! Let's talk:</p>
+        <ul class="contact">
+            <li><a class="answer" href="mailto:blanca.beuste@gmail.com"> Email</a></li>
+            <li><a class="answer" href="https://es.linkedin.com/in/blanca-beuste" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+    </div>
+</main>
+    <script>const TRANSLATIONS = {};</script>
+    <script src="lang/en.js"></script>
+    <script src="lang/es.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="./js/bonus.js"></script>
+</body>
+</html>

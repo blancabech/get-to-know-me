@@ -184,6 +184,56 @@ p {
     white-space: pre-line;
 }
 
+.bonus {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.answers {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.answer {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: var(--fuente-textos);
+    color: var(--color-texto);
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    background-color: var(--color-acento);
+}
+.answer:hover {
+    background-color: var(--color-texto);
+    color: var(--color-acento);
+}
+.hired {
+    background-color: var(--color-fondo2);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.contact {
+    list-style: none;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
 @media (max-width: 1100px) {
     .game {
         gap:10%;
@@ -226,6 +276,11 @@ p {
         position: static;
         justify-self: end;
         margin-bottom: 65px;
+        margin-top: 150px;
+    }
+    .bonus {
+        justify-content: flex-start;
+        margin-top: 100px;
     }
 }
 
@@ -261,7 +316,18 @@ p {
     .solution > p {
         font-size: 17px;
     }
-
+    .bonus > p {
+        font-size: 17px;
+    }
+    .hired > p {
+        font-size: 17px;
+    }
+    .answers {
+        gap: 50px;
+    }
+    .answer {
+        font-size: 18px;
+    }
 }
 @media (max-width: 425px) {
     .cover {
@@ -274,6 +340,10 @@ p {
     }
     .instructions {
         margin: 150px -10% 0% -10%;
+        border-radius: 0%;
+    }
+    .hired {
+        margin: 0% -10% 0% -10%;
         border-radius: 0%;
     }
 }

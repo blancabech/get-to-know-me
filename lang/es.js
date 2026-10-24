@@ -4,7 +4,7 @@ TRANSLATIONS.es = {
     greeting: "¡HOLA! SOY",
     intro: "¿Te gustaría saber más sobre mí?",
     gameTitle:"2 verdades y una mentira",
-    gameExplanation:"En cada una de las siguientes 5 preguntas hay dos verdades y una mentira. Selecciona la intrusa.",
+    gameExplanation:"En cada una de las siguientes 3 preguntas hay dos verdades y una mentira. Selecciona la intrusa.",
     gameExclamation:"¡No te pierdas el bonus final!",
     next: "Siguiente",
     
@@ -29,17 +29,9 @@ TRANSLATIONS.es = {
     q3CorrectSol: "¡Correcto! Es mentira, claro.",
     q3IncorrectSol: "Incorrecto. La mentira era la a\nEs mentira, claro.",
 
-    q4: "En el futuro quiero...",
-    q4a: "a. profundizar en la tecnología blockchain como hobby.",
-    q4b: "b. trabajar en ventas.",
-    q4c: "c. tener un trabajo estable.",
-    q4CorrectSol: "¡Correcto! Lo mío es construir cosas, no venderlas.",
-    q4IncorrectSol: "Incorrecto. La mentira era la b\nLo mío es construir cosas, no venderlas.",
-
-    q5: "En las entrevistas me gusta que...",
-    q5a: "a. me pidan que enseñe alguno de mis proyectos.",
-    q5b: "b. me pregunten «¿de qué estás más orgullosa que no aparezca en tu CV?».",
-    q5c: "c. me pregunten dónde me veo en cinco años.",
-    q5CorrectSol: "¡Correcto! No tengo una bola de cristal.",
-    q5IncorrectSol: "Incorrecto. La mentira era la c\nNo tengo una bola de cristal."
+    bonusTitle: "Pregunta extra",
+    bonusQuestion: "¿Deberías contratarme?",
+    bonusYes: "¡Sí!",
+    bonusMaybe: "Puede",
+    bonusHired: "¡Buena decisión! Escríbeme para que nos conozcamos:"
 };
