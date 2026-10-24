@@ -7,6 +7,13 @@
     font-variation-settings:
     "wdth" 100;
 }
+@font-face {
+    font-family: "Anton";
+    src: url("./fonts/anton/Anton-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 :root {
     /*      --color-fondo: #DBE2F8;
@@ -16,7 +23,7 @@
     --color-texto: #4d3b28;
     --color-acento: #fffbab;
     --color-complementario: #F6F2ED;
-    --fuente-titulos: Impact, sans-serif;
+    --fuente-titulos: "Anton", Impact, sans-serif;
     --fuente-subtitulos: "Noto Serif", serif;
     --fuente-textos: Arial, sans-serif;
     --color-correcto: #9fd8a3;
