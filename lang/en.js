@@ -15,14 +15,14 @@ TRANSLATIONS.en = {
     q1CorrectSol: "Correct! If it's not an obligation, knowing when to quit is a victory.",
     q1IncorrectSol: "Wrong. The lie was c\nIf it's not an obligation, knowing when to quit is a victory.",
     
-    q2: "I believe in...",
+    q2: "2. I believe in...",
     q2a: "a. always assuming good intent.",
     q2b: "b. specific, timely feedback: “you're doing it wrong” helps no one.",
     q2c: "c. asking for forgiveness rather than permission.",
     q2CorrectSol: "Correct! I'd rather ask first. It saves headaches, and code that would end up in the bin.",
     q2IncorrectSol: "Wrong. The lie was c\nI'd rather ask first. It saves headaches, and code that would end up in the bin.",
 
-    q3: "I've never...",
+    q3: "3. I've never...",
     q3a: "a. used console.log('here') to debug.",
     q3b: "b. said “it works on my machine”.",
     q3c: "c. copied code from Stack Overflow without understanding what it did.",

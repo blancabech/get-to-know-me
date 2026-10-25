@@ -15,14 +15,14 @@ TRANSLATIONS.es = {
     q1CorrectSol: "¡Correcto! Si no es un deber, una retirada a tiempo es una victoria.",
     q1IncorrectSol: "Incorrecto. La mentira era la c\nSi no es un deber, una retirada a tiempo es una victoria.",
     
-    q2: "Creo en...",
+    q2: "2. Creo en...",
     q2a: "a. presuponer siempre buena intención.",
     q2b: "b. el feedback concreto y a tiempo: «lo estás haciendo mal» no ayuda a nadie.",
     q2c: "c. pedir perdón en lugar de pedir permiso.",
     q2CorrectSol: "¡Correcto! Prefiero preguntar antes. Ahorra disgustos, y también código que habría que tirar.",
     q2IncorrectSol: "Incorrecto. La mentira era la c\nPrefiero preguntar antes. Ahorra disgustos, y también código que habría que tirar.",
     
-    q3: "Nunca he...",
+    q3: "3. Nunca he...",
     q3a: "a. usado console.log('aquí') para depurar.",
     q3b: "b. dicho «en mi ordenador funciona».",
     q3c: "c. copiado código de Stack Overflow sin entender qué hacía.",
