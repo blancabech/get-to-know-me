@@ -4,8 +4,8 @@ TRANSLATIONS.es = {
     greeting: "¡HOLA! SOY",
     intro: "¿Te gustaría saber más sobre mí?",
     gameTitle:"2 verdades y una mentira",
-    gameExplanation:"En cada una de las siguientes 3 preguntas hay dos verdades y una mentira. Selecciona la intrusa.",
-    gameExclamation:"¡No te pierdas el bonus final!",
+    gameExplanation:"A continuación encontrarás tres bloques de curiosidades sobre mí. En cada uno hay dos verdades y una mentira. ¿Sabrás encontrar la intrusa?",
+    gameExclamation:"¡No te pierdas la pregunta final!",
     next: "Siguiente",
     
     q1: "1. Soy de las que...",

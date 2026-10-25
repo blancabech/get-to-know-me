@@ -4,8 +4,8 @@ TRANSLATIONS.en = {
     greeting: "HI! IT'S ME,",
     intro: "Would you like to know more about me?",
     gameTitle:"Two Truths and a Lie",
-    gameExplanation:"Each of the following 3 questions has two truths and one lie. Spot the odd one out.",
-    gameExclamation:"Don't miss the final bonus!",
+    gameExplanation:"Here are three sets of fun facts about me. Each one has two truths and a lie. Can you spot the lie?",
+    gameExclamation:"Don't miss the last question!",
     next: "Next",
     
     q1: "1. I'm the kind of person who...",
